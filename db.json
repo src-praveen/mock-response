@@ -1,5 +1,5 @@
 {
-  "success" : true,
-  "responseCode" : "000",
-  "responseMessage" : "SUCCESS"
+   "success":true,
+   "responseCode":"000",
+   "responseMessage":"SUCCESS"
 }

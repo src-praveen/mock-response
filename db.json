@@ -1,5 +1,47 @@
 {
-   "success":true,
-   "responseCode":"000",
-   "responseMessage":"SUCCESS"
+    "header": {
+        "status": "SUCCESS",
+        "message": "Request completed successfully",
+        "timestamp": "2020-07-21T20:06:14:277"
+    },
+    "detail": {
+        "entitlementstatus": [
+            {
+                "functionid": "payrollcard",
+                "accountnumber": "SASABB242003333001",
+                "status": "REJECTED",
+                "description": "Account number not assosciated with client",
+                "businessfunction": "payrollbulk"
+            },
+            {
+                "functionid": "payrollcard",
+                "accountnumber": "SASABB242003333001",
+                "status": "REJECTED",
+                "description": "Account number not assosciated with client",
+                "businessfunction": "payrollbulk"
+            },
+            {
+                "functionid": "payrollcard",
+                "accountnumber": "***",
+                "status": "REJECTED",
+                "description": "Account number not assosciated with client",
+                "businessfunction": "visapayment"
+            },
+            {
+                "functionid": "payrollcard",
+                "accountnumber": "***",
+                "status": "REJECTED",
+                "description": "Account number not assosciated with client",
+                "businessfunction": "internationalpayment"
+            }
+        ],
+        "clientonboard": {
+            "status": "SUCCESS",
+            "description": "Client already onboarded"
+        },
+        "user": {
+            "status": "SUCCESS",
+            "description": "User updated successfully"
+        }
+    }
 }
